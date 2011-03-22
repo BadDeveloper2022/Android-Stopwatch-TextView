@@ -1,5 +1,7 @@
 Android Stopwatch Widget
 
+Euan Freeman
+
 Turns an Android TextView widget into a stopwatch.
 
 * Independent of layout and widget style
