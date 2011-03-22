@@ -1,0 +1,7 @@
+Android Stopwatch Widget
+
+Turns an Android TextView widget into a stopwatch.
+
+* Independent of layout and widget style
+* Updates time at a given interval
+* Provides callbacks for stopwatch controls
