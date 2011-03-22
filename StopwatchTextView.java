@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.efreeman.stopwatchwidget;
+package com.efreeman.stopwatchtextview;
 
 import android.os.Handler;
 import android.widget.TextView;
@@ -35,7 +35,7 @@ import android.widget.TextView;
  * @see TextView
  * @see Handler
  */
-public class StopwatchWidget implements Runnable {
+public class StopwatchTextView implements Runnable {
 	public enum TimerState {STOPPED, PAUSED, RUNNING};
 
 	private TextView widget;
@@ -45,7 +45,7 @@ public class StopwatchWidget implements Runnable {
 	private TimerState state;
 	private Handler handler;
 
-	public StopwatchWidget(TextView widget, long updateInterval) {
+	public StopwatchTextView(TextView widget, long updateInterval) {
 		this.widget = widget;
 		this.updateInterval = updateInterval;
 		time = 0;
